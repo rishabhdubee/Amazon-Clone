@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover; 
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 3%;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3%;
+}
+/** box 2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 14px;
+    margin-left:20px;
+    margin-top: 5px;
+}
+
+.add-second{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    height:50px;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+
+}
+/** box **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly; 
+    width: 820px;
+    background-color: white;
+    height: 40px;
+    border-radius: 3px;
+}
+.all{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    padding-left: 5px;
+    border: none;
+    color:#0f1111
+}
+.sa-in{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    color: #0f1111;
+}
+
+.search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ff9900;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+}
+/** box 4**/
+.country-language{
+    height: 45px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.flag{
+    background-image: url("india.png");
+    background-size: cover;
+    height: 16px;
+    width: 24px;
+    margin: 0px 2px 1px 0px;
+}
+
+.en{
+    height: 16px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    margin: 0px 0px 0px 1px;
+    font-weight: bold;
+    border: none;
+}
+/** box5**/
+.Hello-Account{
+    height: 45px;
+    width: 110px;
+    align-items: center;
+    margin: 0px 0px 0px 2px;
+    padding: 0px 4px 8px 9px;
+}
+
+.hello{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.account{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/** box 6 **/
+
+.return-orders{
+    height: 45px;
+    width: 77px;
+    align-items: center;
+    margin-left: 2px;
+    padding: 0px 9px 10px;
+
+}
+
+.return{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.orders{
+    font-size: 14px;
+    font-weight: bold   ;
+}
+
+/**box 7**/
+
+.cart-logo{
+    height: 53px;
+    width: 64px;
+    background-color: #0f1111;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.cart{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+/** PANEL **/
+
+.panel-main{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+}
+
+.panel-functions{
+    display: flex;
+}
+
+.panel-all{
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+}
+.all{
+    background-color: transparent;
+}
+
+.panel-opts{
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%; 
+}
+
+/**Hero section**/
+
+.hero-section{
+    background-image: url("hero_image.png");
+    height:250px;
+    width: 100%;
+    background-size: cover;
+}
+
+/** Shopping**/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f0e9;
+}
+
+.box{
+    background-color: white;
+    height: 420px;
+    width: 23%;
+}
+.box1-image{
+    height: 350px;
+    width: 330px;
+    background-image: url("Screenshot\ 2025-11-09\ 212020.png");
+    background-size: cover;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.epm{
+    color:rgb(37, 37, 211);
+    margin: 0px 0px 0px 10px;
+    font-size: 13px;
+}
+
+.box2-image{
+    height: 330px;
+    width: 330px;
+    background-image: url("Screenshot\ 2025-11-09\ 212955.png");
+    background-size: cover;
+    margin: 10px 10px 0px 10px;
+
+}
+
+.box3-image{
+    height: 330px;
+    width: 330px;
+    background-image: url("Screenshot\ 2025-11-09\ 213306.png");
+    background-size: cover;
+    margin: 10px 10px 25px 10px;
+
+}
+
+.box4-image{
+    height: 330px;
+    width: 330px;
+    background-image: url("Screenshot\ 2025-11-09\ 213536.png");
+    background-size: cover;
+    margin: 10px 10px 0px 10px;
+
+}
+.r{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
